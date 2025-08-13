@@ -2,8 +2,8 @@ import requests
 from langchain_groq import ChatGroq
 
 # API keys for VirusTotal and Groq
-VT_API_KEY = "your_API_key_here"  # Replace with your VirusTotal API key
-GROQ_API_KEY = "your_Groq_API_key_here"  # Replace with your Groq API key
+VT_API_KEY = os.getenv("VT_API_KEY")      #  VirusTotal
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")  #  Groq
 
 # Function to check IP with VirusTotal
 def check_ip(ip):
