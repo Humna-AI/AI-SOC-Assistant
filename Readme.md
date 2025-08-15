@@ -1,16 +1,33 @@
-# 🛡AI SOC Assistant
+# AI SOC Assistant – Automated Threat Analysis
 
-An **AI-powered Security Operations Center (SOC) Assistant** that checks IP addresses for malicious activity using **VirusTotal** and provides AI-generated cybersecurity explanations using **Groq Cloud (LangChain + LLaMA)**.
+## 📌 Overview
+This project is part of my **AI for Cybersecurity journey** where I combine my cybersecurity skills with **AI agent technology** to build tools that make Security Operations Center (SOC) work faster, easier, and less repetitive.
+
+---
+
+## 🚀 Features
+
+### **Day 1 – Manual AI SOC Assistant**
+- Looks up suspicious IP addresses via **VirusTotal API**.
+- Uses **LangChain + OpenAI** to explain the results in natural, analyst-friendly language.
+- Helps analysts save time by reducing manual threat lookups.
 
 ---
 
-## Features
-- **Malicious IP Detection** via VirusTotal API.
-- **AI-powered explanation** of threat severity for SOC analysts.
-- Uses **Groq Cloud API** with LangChain for natural language explanations.
-- Supports real-time IP checks and automated security insights.
+### **Day 2 – Automated Threat Analysis with n8n + Groq**
+- **n8n Workflow** automatically triggers IP lookups via **VirusTotal API**.
+- **Groq LLM** generates concise, analyst-friendly threat intelligence reports.
+- Fully automated — from input to final analysis — no manual steps required.
+- Runs in seconds, freeing SOC analysts for deeper security investigations.
 
 ---
+
+## 🛠️ Tech Stack
+- **VirusTotal API**
+- **LangChain**
+- **OpenAI API**
+- **Groq LLM**
+- **n8n** (Workflow Automation)
 
 ## Project Structure
 AI-SOC-Assistant/
